@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+OctoPrint_Lighttoggle.egg-info/PKG-INFO
+OctoPrint_Lighttoggle.egg-info/SOURCES.txt
+OctoPrint_Lighttoggle.egg-info/dependency_links.txt
+OctoPrint_Lighttoggle.egg-info/entry_points.txt
+OctoPrint_Lighttoggle.egg-info/requires.txt
+OctoPrint_Lighttoggle.egg-info/top_level.txt
+octoprint_lighttoggle/__init__.py
+octoprint_lighttoggle/static/css/lighttoggle.css
+octoprint_lighttoggle/static/js/lighttoggle.js
+octoprint_lighttoggle/static/less/lighttoggle.less
+octoprint_lighttoggle/templates/README.txt

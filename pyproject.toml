@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "OctoPrint-Lighttoggle"
+version = "0.1.0"
+description = "I made this simple switch to turn on and off you're built in light on you're 3D printer"
+authors = [
+    {name = "Mark", email = "wildspider64@gmail.com"}
+]
+readme = {file = "README.md", content-type = "markdown"}
+dynamic = [
+    "license"
+]
+
+requires-python = ">=3.7, <4"
+
+# any additional requirements (besides OctoPrint) should be listed here
+dependencies = []
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = [
+    "octoprint_lighttoggle",
+    "octoprint_lighttoggle.*"
+]
+
+[project.entry-points."octoprint.plugin"]
+lighttoggle = "octoprint_lighttoggle"
+
+[project.urls]
+Homepage = "https://github.com/Qwertydude211/OctoPrint-LightToggle"
+
+[project.optional-dependencies]
+develop = [
+    "go-task-bin"
+]
