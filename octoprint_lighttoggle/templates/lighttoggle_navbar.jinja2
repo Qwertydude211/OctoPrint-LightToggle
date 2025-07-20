@@ -1,0 +1,17 @@
+<li>
+  <button class="btn btn-default btn-xs" id="light-on">🔦 On</button>
+</li>
+<li>
+  <button class="btn btn-default btn-xs" id="light-off">🔦 Off</button>
+</li>
+
+<script>
+$(function() {
+  $("#light-on").click(() => {
+    OctoPrint.simpleApiCommand("lighttoggle", "on");
+  });
+  $("#light-off").click(() => {
+    OctoPrint.simpleApiCommand("lighttoggle", "off");
+  });
+});
+</script>
