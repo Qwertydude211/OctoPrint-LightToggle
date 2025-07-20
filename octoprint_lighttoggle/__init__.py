@@ -24,7 +24,7 @@ class LighttogglePlugin(
         return {"status": "on" if self.light_on else "off"}
 
     def get_template_configs(self):
-        return [dict(type="sidebar", name="Light Control", icon="lightbulb-o")]
+        return [dict(type="navbar", template="lighttoggle_navbar.jinja2")]
 
 __plugin_name__ = "Lighttoggle Plugin"
 __plugin_implementation__ = LighttogglePlugin()
