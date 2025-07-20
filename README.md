@@ -1,6 +1,6 @@
 # OctoPrint-Lighttoggle
 
-**TODO:** Describe what your plugin does.
+Adds two buttons that control you're 3D printer's built in lights
 
 ## Setup
 
